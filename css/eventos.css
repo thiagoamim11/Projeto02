@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+
+
+
+
+.logo{
+	padding: 20px;
+	width: 50%;
+	float: left;
+	margin-left: 60px;
+	max-height: 50px;
+	margin-top: -10px;
+}
+
+header div ul li {
+	font-family: 'Libre Baskerville', serif;
+	float: left;
+	padding: 20px;
+	margin-right: 30px;
+	margin-top: 40px;
+	font-size: 18px;	
+	margin-left: -40px;
+	display: block; /*displey block ele ocultou a marcaçao da lista */
+   
+}
+
+header a{
+	color:red;
+	text-decoration: none;
+}
+
+header{
+	padding:20px 2% 35px 2%;
+	height: 100px; /*deu bug no meu codigo porque nao manipulei o tamanho do header ou sectcon, a primeira coisa que tem que fazer é manipular
+	o tamanho da seçao para nao estrapolar a area desejada */
+     max-height: 100px;
+
+     
+}
+
+.clear{
+     float: none;
+     margin: 0px;
+     height: 0px;
+     width: 0px;
+
+     }
+
+ /******************************************/
+
+
+ main h1{
+ 	float: left;
+ 	color: red;
+ 	font:bold 20px Century Gothic, sans-serif;
+ 	margin-top: 200px;
+ 	margin-left: 550px;
+ }

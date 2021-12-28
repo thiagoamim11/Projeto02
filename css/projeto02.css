@@ -1,0 +1,441 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+
+
+
+
+.logo{
+	padding: 20px;
+	width: 50%;
+	float: left;
+	margin-left: 60px;
+	max-height: 50px;
+	margin-top: -10px;
+}
+
+header div ul li {
+	font-family: 'Libre Baskerville', serif;
+	float: left;
+	padding: 20px;
+	margin-right: 30px;
+	margin-top: 40px;
+	font-size: 18px;	
+	margin-left: -40px;
+	display: block; /*displey block ele ocultou a marcaçao da lista */
+   
+}
+
+header a{
+	color:red;
+	text-decoration: none;
+}
+
+header{
+	padding:20px 2% 35px 2%;
+	height: 100px; /*deu bug no meu codigo porque nao manipulei o tamanho do header ou sectcon, a primeira coisa que tem que fazer é manipular
+	o tamanho da seçao para nao estrapolar a area desejada */
+     max-height: 100px;
+
+     
+}
+
+.clear{
+     float: none;
+     margin: 0px;
+     height: 0px;
+     width: 0px;
+}
+
+
+
+.corpo{
+	background-image: url("../imagens/bg.jpg");
+	width: 100%;
+	height: 750px;
+	padding: 0px;
+	background-repeat: no-repeat; /* serve para nao deixar a imagem repetir */
+    background-position: right bottom;
+    background-size: contain; /* serve para deixar a imagem no tamanho cheio*/
+    background-color: black; /*serve para completar o resto do fundo da seçao
+    que tinha ficado branco*/
+}
+
+.container1{
+	height: 300px;
+	width: 300px;
+	padding-top: 100px;
+     text-align: center;
+     margin-left: 120px;
+     display: block;
+     text-decoration: none;
+  
+}
+
+section div h1{
+	padding: 20px;
+}
+
+section div h1 a{
+	font-family: 'Libre Baskerville', serif;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-style: italic; /*uma das maneiras de deixar a fonte italico */
+
+}
+
+
+.fundo1{
+	font:bold 20px Century Gothic, sans-serif;
+     font-style:normal;
+     color:#ffffff;
+     background:#EE3B3B;
+     border:0px solid #ea326f;
+     text-shadow:0px 0px 0px #ffffff;
+     box-shadow:0px 0px 6px #454545;
+     -moz-box-shadow:0px 0px 6px #454545;
+     -webkit-box-shadow:0px 0px 6px #454545;
+     border-radius:90px 15px 90px 15px;
+     -moz-border-radius:90px 15px 90px 15px;
+     -webkit-border-radius:90px 15px 90px 15px;
+     width:145px;
+     padding:20px 40px;
+     cursor:pointer;
+}
+
+.fundo2{
+     font:bold 20px Century Gothic, sans-serif;
+     font-style:normal;
+     color:#ffffff;
+     background:#EE3B3B;
+     border:0px solid #ea326f;
+     text-shadow:0px 0px 0px #ffffff;
+     box-shadow:0px 0px 6px #454545;
+     -moz-box-shadow:0px 0px 6px #454545;
+     -webkit-box-shadow:0px 0px 6px #454545;
+     border-radius:90px 15px 90px 15px;
+     -moz-border-radius:90px 15px 90px 15px;
+     -webkit-border-radius:90px 15px 90px 15px;
+     width:145px;
+     padding:20px 40px;
+     cursor:pointer;
+}
+
+.fundo3{
+	font:bold 20px Century Gothic, sans-serif;
+     font-style:normal;
+     color:#ffffff;
+     background:#EE3B3B;
+     border:0px solid #ea326f;
+     text-shadow:0px 0px 0px #ffffff;
+     box-shadow:0px 0px 6px #454545;
+     -moz-box-shadow:0px 0px 6px #454545;
+     -webkit-box-shadow:0px 0px 6px #454545;
+     border-radius:90px 15px 90px 15px;
+     -moz-border-radius:90px 15px 90px 15px;
+     -webkit-border-radius:90px 15px 90px 15px;
+     width:145px;
+     padding:20px 40px;
+     cursor:pointer;
+}
+
+.fundo4{
+	font:bold 20px Century Gothic, sans-serif;
+     font-style:normal;
+     color:#ffffff;
+     background: #EE3B3B;
+     border:0px solid #ea326f;
+     text-shadow:0px 0px 0px #ffffff;
+     box-shadow:0px 0px 6px #454545;
+     -moz-box-shadow:0px 0px 6px #454545;
+     -webkit-box-shadow:0px 0px 6px #454545;
+     border-radius:90px 15px 90px 15px;
+     -moz-border-radius:90px 15px 90px 15px;
+     -webkit-border-radius:90px 15px 90px 15px;
+     width:145px;
+     padding:20px 40px;
+     cursor:pointer;
+
+
+
+}
+
+/* ainda estou com dificuldade pra por a pagina responsiva . Vou me aprofundar mais nos proximos projetos */
+
+
+
+.container2{
+	height: 500px;
+	width: 100%;
+     
+}
+
+.veiculos{
+	float: left;
+     margin-left: 500px;
+     height: 300px;
+     width: 500px;
+     margin-top: 100px;
+
+
+     
+}
+
+
+.destaque{
+	padding-top: 560px;
+	margin-left: 520px;
+	font:bold 20px Century Gothic, sans-serif;
+	font-size: 30px;
+	padding-bottom: 40px;
+	font-style: oblique;
+	font-weight: bold;
+	color: #FF7F00;
+
+
+
+
+}
+
+/* ---------------------------------*/
+
+main{
+	width: 100%;
+	height: 500px;
+	background-color: #2F4F4F;
+     
+}
+
+.vitrine{
+	padding-top: 100px;
+
+
+}
+
+
+.vitrine1{
+	padding: 120px 120px;
+	background-position: right;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 60px;
+	margin-right: 40px;
+
+}
+
+
+
+
+.vitrine2{
+	padding: 120px 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	background-position: left;
+	margin-top: -240px;
+	margin-left: 40px;
+
+
+}
+
+.vitrine3{
+	padding: 120px 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-top: -240px;
+
+}
+
+/* ------------------------- */
+
+.section2{
+	height: 500px;
+	width: 100%;
+}
+
+
+.parte1{
+	background-color: black;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+
+.parte2{
+	background-color: red;
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+
+.section2 .parte1 h2{
+	color: white;
+	padding-left: 135px;
+	padding-top: 100px;
+     font:bold 20px Century Gothic, sans-serif;
+}
+
+.section2 .parte1 ul {
+	color: white;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+
+.section2 .parte1 ul li{
+	padding: 5px;
+	font-size: 20px;
+}
+
+.section2 .parte1 .email{
+	color: white;
+	padding-left: 135px;
+	padding-top: 20px;
+	font-size: 15px;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+
+.section2 .parte1 .botao2{
+	
+     background:#db1515;
+     color: white;
+     margin-top: 40px;
+     -moz-box-shadow:3px 3px 1px white;
+     -webkit-box-shadow:3px 3px 1px black;
+     border-radius:15px 15px 15px 15px;
+     -moz-border-radius:15px 15px 15px 15px;
+     -webkit-border-radius:15px 15px 15px 15px;
+     width:130px;
+     margin-left: 155px;
+     height: 45px;
+
+
+
+
+}
+
+.section2 .parte1 .botao2  h1{
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 0;
+}
+
+.conteudo{
+	padding: 50px 50px;
+}
+
+.parte2 .conteudo h2{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px bold;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+
+}
+
+.parte2 .conteudo p{
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: left;
+	color: white;
+	
+}
+
+.setas{
+	padding: 40px 20px;
+	margin-left: 70px;
+}
+
+.direito{
+	padding-left: 30px;
+}
+
+.setas h1{
+	font-size: 20px;
+	float: right;
+	margin-top: -14px;
+	color: white;
+}
+
+.setas a{
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 500px;
+	background-color: #2F4F4F;
+}
+
+
+.contato{
+	padding: 20px 20px;
+	padding-top: 60px;
+	margin-left: 250px;
+	float: left;
+	width: 50%;
+
+}
+
+.contato h1{
+	color: white;
+	padding-bottom: 30px;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	
+}
+
+.contato h3{
+	color: white;
+	
+}
+
+.contato input{
+	margin-bottom: 10px;
+	width: 200px;
+}
+
+.contato textarea{
+	width: 200px;
+	height: 80px;
+}
+
+
+.contato2{
+	width: 50%;
+	float: right;
+	
+}
+
+.contato2 .ola{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+
+.img1{
+	max-width: 100%;
+}
+
+.img2{
+	float: right;
+	width: 500px;
+	height: 350px;
+	margin-top: -400px;
+	padding: 30px;
+	padding-right: 150px;
+}
+
